@@ -1,5 +1,5 @@
 {
-  "name": "dektrium/yii2-rbac",
+  "name": "bajhoe/yii2-rbac",
   "description": "RBAC management module for Yii2",
   "keywords": ["yii2", "yii2-rbac", "rbac management", "dektrium", "rbac gui", "yii rbac", "rbac module"],
   "type": "yii2-extension",
@@ -13,6 +13,11 @@
       "name": "Dmitry Erofeev",
       "email": "dmeroff@gmail.com",
       "homepage": "http://dmeroff.ru"
+    },
+    {
+      "name": "Bayu Setiawan",
+      "email": "bajhoe@gmail.com",
+      "homepage": "https://bajhoe.web.id"
     }
   ],
   "minimum-stability": "dev",
