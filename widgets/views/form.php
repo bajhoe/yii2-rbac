@@ -11,7 +11,7 @@
 
 use dektrium\rbac\models\Assignment;
 use kartik\select2\Select2;
-use yii\bootstrap\Alert;
+use yii\bootstrap5\Alert;
 use yii\bootstrap5\Html;
 use yii\bootstrap5\ActiveForm;
 
