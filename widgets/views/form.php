@@ -33,6 +33,7 @@ use yii\bootstrap5\ActiveForm;
 <?php endif ?>
 
 <?php $form = ActiveForm::begin([
+    'layout' => 'floating',
     'enableClientValidation' => false,
     'enableAjaxValidation'   => false,
 ]) ?>

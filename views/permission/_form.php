@@ -23,6 +23,7 @@ use yii\bootstrap5\Html;
 ?>
 
 <?php $form = ActiveForm::begin([
+    'layout' => 'floating',
     'enableClientValidation' => false,
     'enableAjaxValidation'   => true,
 ]) ?>
