@@ -17,8 +17,8 @@
 use kartik\select2\Select2;
 use yii\helpers\Url;
 use yii\web\JsExpression;
-use yii\widgets\ActiveForm;
-use yii\helpers\Html;
+use yii\bootstrap5\ActiveForm;
+use yii\bootstrap5\Html;
 ?>
 
 <?php $form = ActiveForm::begin([

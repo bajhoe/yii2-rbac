@@ -14,8 +14,8 @@
  * @var $model \dektrium\rbac\models\Rule
  */
 
-use yii\widgets\ActiveForm;
-use yii\helpers\Html;
+use yii\bootstrap5\ActiveForm;
+use yii\bootstrap5\Html;
 
 ?>
 

@@ -16,7 +16,7 @@ use yii\base\Model;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\web\Response;
-use yii\widgets\ActiveForm;
+use yii\bootstrap5\ActiveForm;
 use dektrium\rbac\models\Search;
 
 /**
