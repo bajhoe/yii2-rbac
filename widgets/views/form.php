@@ -48,7 +48,7 @@ use yii\bootstrap5\ActiveForm;
     ],
 ]) ?>
 
-<?= Html::submitButton(Yii::t('rbac', 'Update assignments'), ['class' => 'btn btn-success btn-block']) ?>
+<?= Html::submitButton(Yii::t('rbac', 'Update assignments'), ['class' => 'btn btn-success btn-block mt-3']) ?>
 
 <?php ActiveForm::end() ?>
 

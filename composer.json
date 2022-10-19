@@ -12,12 +12,20 @@
     {
       "name": "Dmitry Erofeev",
       "email": "dmeroff@gmail.com",
-      "homepage": "http://dmeroff.ru"
+      "homepage": "http://dmeroff.ru",
+      "role": "original authors"
     },
     {
       "name": "Bayu Setiawan",
       "email": "bajhoe@gmail.com",
-      "homepage": "https://bajhoe.web.id"
+      "homepage": "https://bajhoe.web.id",
+      "role": "forker and maintainer"
+    },
+    {
+      "name": "Aditiya Sidabutar",
+      "email": "Sidabutaraditiya@gmail.com",
+      "homepage": "https://sidabutar.web.id",
+      "role": "maintainer"
     }
   ],
   "minimum-stability": "dev",
