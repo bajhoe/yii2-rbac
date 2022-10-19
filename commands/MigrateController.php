@@ -45,7 +45,7 @@ class MigrateController extends BaseMigrateController
     /**
      * @inheritdoc
      */
-    public $templateFile = '@dektrium/rbac/views/migration.php';
+    public $templateFile = '@bajhoe/rbac/views/migration.php';
 
     /**
      * @inheritdoc

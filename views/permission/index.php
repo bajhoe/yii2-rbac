@@ -26,7 +26,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 ?>
 
-<?php $this->beginContent('@dektrium/rbac/views/layout.php') ?>
+<?php $this->beginContent('@bajhoe/rbac/views/layout.php') ?>
 
 <?php Pjax::begin() ?>
 
