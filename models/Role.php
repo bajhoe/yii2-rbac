@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\rbac\models;
+namespace bajhoe\rbac\models;
 
 use yii\rbac\Item;
 

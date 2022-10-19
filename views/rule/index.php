@@ -11,7 +11,7 @@
 
 /**
  * @var $this         \yii\web\View
- * @var $searchModel  \dektrium\rbac\models\RuleSearch
+ * @var $searchModel  \bajhoe\rbac\models\RuleSearch
  * @var $dataProvider \yii\data\ArrayDataProvider
  */
 

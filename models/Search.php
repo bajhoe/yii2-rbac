@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\rbac\models;
+namespace bajhoe\rbac\models;
 
 use yii\base\Model;
 use yii\data\ArrayDataProvider;
@@ -39,7 +39,7 @@ class Search extends Model
     public $rule_name;
     
     /**
-     * @var \dektrium\rbac\components\DbManager
+     * @var \bajhoe\rbac\components\DbManager
      */
     protected $manager;
     

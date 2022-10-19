@@ -11,7 +11,7 @@
 
 /**
  * @var $dataProvider array
- * @var $filterModel  dektrium\rbac\models\Search
+ * @var $filterModel  bajhoe\rbac\models\Search
  * @var $this         yii\web\View
  */
 

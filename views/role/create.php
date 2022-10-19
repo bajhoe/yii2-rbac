@@ -10,7 +10,7 @@
  */
 
 /**
- * @var $model dektrium\rbac\models\Role
+ * @var $model bajhoe\rbac\models\Role
  * @var $this  yii\web\View
  */
 

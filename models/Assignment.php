@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\rbac\models;
+namespace bajhoe\rbac\models;
 
-use dektrium\rbac\components\DbManager;
-use dektrium\rbac\validators\RbacValidator;
+use bajhoe\rbac\components\DbManager;
+use bajhoe\rbac\validators\RbacValidator;
 use Yii;
 use yii\base\InvalidConfigException;
 use yii\base\Model;

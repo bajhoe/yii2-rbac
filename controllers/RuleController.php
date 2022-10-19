@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\rbac\controllers;
+namespace bajhoe\rbac\controllers;
 
-use dektrium\rbac\components\DbManager;
-use dektrium\rbac\models\Rule;
-use dektrium\rbac\models\RuleSearch;
+use bajhoe\rbac\components\DbManager;
+use bajhoe\rbac\models\Rule;
+use bajhoe\rbac\models\RuleSearch;
 use yii\di\Instance;
 use yii\filters\VerbFilter;
 use yii\web\Controller;

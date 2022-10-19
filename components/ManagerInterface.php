@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\rbac\components;
+namespace bajhoe\rbac\components;
 
 use yii\rbac\ManagerInterface as BaseManagerInterface;
 

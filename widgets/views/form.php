@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-use dektrium\rbac\models\Assignment;
+use bajhoe\rbac\models\Assignment;
 use kartik\select2\Select2;
 use yii\bootstrap5\Alert;
 use yii\bootstrap5\Html;

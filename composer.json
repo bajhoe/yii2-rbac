@@ -28,11 +28,11 @@
   },
   "autoload": {
     "psr-4": {
-      "dektrium\\rbac\\": ""
+      "bajhoe\\rbac\\": ""
     }
   },
   "extra": {
-    "bootstrap": "dektrium\\rbac\\Bootstrap",
+    "bootstrap": "bajhoe\\rbac\\Bootstrap",
     "branch-alias": {
       "dev-master": "1.0.x-dev"
     }

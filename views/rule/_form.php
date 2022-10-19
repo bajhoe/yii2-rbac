@@ -11,7 +11,7 @@
 
 /**
  * @var $this  \yii\web\View
- * @var $model \dektrium\rbac\models\Rule
+ * @var $model \bajhoe\rbac\models\Rule
  */
 
 use yii\bootstrap5\ActiveForm;

@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\rbac\models;
+namespace bajhoe\rbac\models;
 
 use yii\base\InvalidConfigException;
 use yii\base\InvalidParamException;
 use yii\base\Model;
 use yii\helpers\Json;
 use yii\rbac\Item;
-use dektrium\rbac\validators\RbacValidator;
+use bajhoe\rbac\validators\RbacValidator;
 
 /**
  * @author Dmitry Erofeev <dmeroff@gmail.com>
@@ -59,7 +59,7 @@ abstract class AuthItem extends Model
     public $item;
 
     /**
-     * @var \dektrium\rbac\components\DbManager
+     * @var \bajhoe\rbac\components\DbManager
      */
     protected $manager;
 

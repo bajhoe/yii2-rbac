@@ -12,7 +12,7 @@
 /**
  * @var $dataProvider array
  * @var $this         yii\web\View
- * @var $filterModel  dektrium\rbac\models\Search
+ * @var $filterModel  bajhoe\rbac\models\Search
  */
 
 use kartik\select2\Select2;

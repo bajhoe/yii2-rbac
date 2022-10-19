@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\rbac\migrations;
+namespace bajhoe\rbac\migrations;
 
-use dektrium\rbac\components\DbManager;
+use bajhoe\rbac\components\DbManager;
 use yii\base\Component;
 use yii\db\MigrationInterface;
 use yii\di\Instance;

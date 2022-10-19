@@ -10,7 +10,7 @@
  */
 
 /**
- * @var $model \dektrium\rbac\models\Rule
+ * @var $model \bajhoe\rbac\models\Rule
  * @var $this  \yii\web\View
  */
 

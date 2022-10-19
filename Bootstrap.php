@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\rbac;
+namespace bajhoe\rbac;
 
-use dektrium\rbac\components\DbManager;
-use dektrium\rbac\components\ManagerInterface;
-use dektrium\user\Module as UserModule;
+use bajhoe\rbac\components\DbManager;
+use bajhoe\rbac\components\ManagerInterface;
+use bajhoe\user\Module as UserModule;
 use yii\base\Application;
 use yii\web\Application as WebApplication;
 use yii\base\BootstrapInterface;
@@ -50,7 +50,7 @@ class Bootstrap implements BootstrapInterface
                 throw new InvalidConfigException('You have wrong authManager configuration');
             }
 
-            // if dektrium/user extension is installed, copy admin list from there
+            // if bajhoe/user extension is installed, copy admin list from there
             if ($this->checkUserModuleInstalled($app) && $app instanceof WebApplication) {
                 $app->getModule('rbac')->admins = $app->getModule('user')->admins;
             }   
@@ -58,7 +58,7 @@ class Bootstrap implements BootstrapInterface
     }
     
     /**
-     * Verifies that dektrium/yii2-rbac is installed and configured.
+     * Verifies that bajhoe/yii2-rbac is installed and configured.
      * @param  Application $app
      * @return bool
      */
@@ -72,7 +72,7 @@ class Bootstrap implements BootstrapInterface
     }
     
     /**
-     * Verifies that dektrium/yii2-user is installed and configured.
+     * Verifies that bajhoe/yii2-user is installed and configured.
      * @param  Application $app
      * @return bool
      */

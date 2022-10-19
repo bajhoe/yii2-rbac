@@ -10,7 +10,7 @@
  */
 
 
-namespace dektrium\rbac\commands;
+namespace bajhoe\rbac\commands;
 
 use yii\console\controllers\BaseMigrateController;
 use yii\db\Connection;
