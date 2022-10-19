@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace bajhoe\rbac\models;
+namespace infinindotech\rbac\models;
 
 use yii\base\Model;
 use yii\data\ArrayDataProvider;
@@ -39,7 +39,7 @@ class Search extends Model
     public $rule_name;
     
     /**
-     * @var \bajhoe\rbac\components\DbManager
+     * @var \infinindotech\rbac\components\DbManager
      */
     protected $manager;
     

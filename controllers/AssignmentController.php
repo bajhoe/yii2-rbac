@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace bajhoe\rbac\controllers;
+namespace infinindotech\rbac\controllers;
 
-use bajhoe\rbac\models\Assignment;
+use infinindotech\rbac\models\Assignment;
 use Yii;
 use yii\web\Controller;
 
@@ -35,7 +35,7 @@ class AssignmentController extends Controller
         if ($model->load(\Yii::$app->request->post()) && $model->updateAssignments()) {
         }
 
-        return \bajhoe\rbac\widgets\Assignments::widget([
+        return \infinindotech\rbac\widgets\Assignments::widget([
             'model' => $model,
         ]);
         /*$model = Yii::createObject([

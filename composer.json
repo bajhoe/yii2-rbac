@@ -28,11 +28,11 @@
   },
   "autoload": {
     "psr-4": {
-      "bajhoe\\rbac\\": ""
+      "infinindotech\\rbac\\": ""
     }
   },
   "extra": {
-    "bootstrap": "bajhoe\\rbac\\Bootstrap",
+    "bootstrap": "infinindotech\\rbac\\Bootstrap",
     "branch-alias": {
       "dev-master": "1.0.x-dev"
     }

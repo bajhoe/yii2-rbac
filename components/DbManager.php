@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace bajhoe\rbac\components;
+namespace infinindotech\rbac\components;
 
 use yii\db\Query;
 use yii\rbac\DbManager as BaseDbManager;

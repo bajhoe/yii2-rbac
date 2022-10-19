@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace bajhoe\rbac\models;
+namespace infinindotech\rbac\models;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;

@@ -1,6 +1,6 @@
 <?php
 
-namespace bajhoe\rbac;
+namespace infinindotech\rbac;
 
 use yii\base\Module;
 
@@ -14,5 +14,5 @@ class RbacConsoleModule extends Module
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'bajhoe\rbac\commands';
+    public $controllerNamespace = 'infinindotech\rbac\commands';
 }

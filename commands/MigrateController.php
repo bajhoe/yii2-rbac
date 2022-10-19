@@ -10,7 +10,7 @@
  */
 
 
-namespace bajhoe\rbac\commands;
+namespace infinindotech\rbac\commands;
 
 use yii\console\controllers\BaseMigrateController;
 use yii\db\Connection;
@@ -45,7 +45,7 @@ class MigrateController extends BaseMigrateController
     /**
      * @inheritdoc
      */
-    public $templateFile = '@bajhoe/rbac/views/migration.php';
+    public $templateFile = '@infinindotech/rbac/views/migration.php';
 
     /**
      * @inheritdoc

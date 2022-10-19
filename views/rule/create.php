@@ -10,7 +10,7 @@
  */
 
 /**
- * @var $model \bajhoe\rbac\models\Rule
+ * @var $model \infinindotech\rbac\models\Rule
  * @var $this  \yii\web\View
  */
 
@@ -20,7 +20,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 ?>
 
-<?php $this->beginContent('@bajhoe/rbac/views/layout.php') ?>
+<?php $this->beginContent('@infinindotech/rbac/views/layout.php') ?>
 
 <?= $this->render('_form', [
     'model' => $model,

@@ -14,7 +14,7 @@
  * @var $content string
  */
 
-use bajhoe\rbac\widgets\Menu;
+use infinindotech\rbac\widgets\Menu;
 
 ?>
 

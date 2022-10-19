@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace bajhoe\rbac\widgets;
+namespace infinindotech\rbac\widgets;
 
 use yii\bootstrap5\Nav;
 
@@ -34,7 +34,7 @@ class Menu extends Nav
     {
         parent::init();
 
-        $userModuleClass       = 'bajhoe\user\Module';
+        $userModuleClass       = 'infinindotech\user\Module';
         $isUserModuleInstalled = \Yii::$app->getModule('user') instanceof $userModuleClass;
 
         $this->items = [

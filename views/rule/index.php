@@ -11,7 +11,7 @@
 
 /**
  * @var $this         \yii\web\View
- * @var $searchModel  \bajhoe\rbac\models\RuleSearch
+ * @var $searchModel  \infinindotech\rbac\models\RuleSearch
  * @var $dataProvider \yii\data\ArrayDataProvider
  */
 
@@ -27,7 +27,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 ?>
 
-<?php $this->beginContent('@bajhoe/rbac/views/layout.php') ?>
+<?php $this->beginContent('@infinindotech/rbac/views/layout.php') ?>
 
 <?php Pjax::begin() ?>
 

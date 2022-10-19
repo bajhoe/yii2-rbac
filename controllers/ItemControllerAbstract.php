@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace bajhoe\rbac\controllers;
+namespace infinindotech\rbac\controllers;
 
 use yii\base\InvalidConfigException;
 use yii\base\Model;
@@ -17,7 +17,7 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\web\Response;
 use yii\bootstrap5\ActiveForm;
-use bajhoe\rbac\models\Search;
+use infinindotech\rbac\models\Search;
 
 /**
  * @author Dmitry Erofeev <dmeroff@gmail.com>
@@ -26,7 +26,7 @@ abstract class ItemControllerAbstract extends Controller
 {
     /**
      * @param  string $name
-     * @return \bajhoe\rbac\models\Role|\bajhoe\rbac\models\Permission
+     * @return \infinindotech\rbac\models\Role|\infinindotech\rbac\models\Permission
      */
     abstract protected function getItem($name);
 
@@ -74,7 +74,7 @@ abstract class ItemControllerAbstract extends Controller
      */
     public function actionCreate()
     {
-        /** @var \bajhoe\rbac\models\Role|\bajhoe\rbac\models\Permission $model */
+        /** @var \infinindotech\rbac\models\Role|\infinindotech\rbac\models\Permission $model */
         $model = \Yii::createObject([
             'class'    => $this->modelClass,
             'scenario' => 'create',
@@ -100,7 +100,7 @@ abstract class ItemControllerAbstract extends Controller
      */
     public function actionUpdate($name)
     {
-        /** @var \bajhoe\rbac\models\Role|\bajhoe\rbac\models\Permission $model */
+        /** @var \infinindotech\rbac\models\Role|\infinindotech\rbac\models\Permission $model */
         $item  = $this->getItem($name);
         $model = \Yii::createObject([
             'class'    => $this->modelClass,

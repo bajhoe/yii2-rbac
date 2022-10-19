@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace bajhoe\rbac\widgets;
+namespace infinindotech\rbac\widgets;
 
-use bajhoe\rbac\components\DbManager;
-use bajhoe\rbac\models\Assignment;
+use infinindotech\rbac\components\DbManager;
+use infinindotech\rbac\models\Assignment;
 use Yii;
 use yii\base\InvalidConfigException;
 use yii\base\Widget;

@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace bajhoe\rbac;
+namespace infinindotech\rbac;
 
-use bajhoe\rbac\components\DbManager;
-use bajhoe\rbac\components\ManagerInterface;
-use bajhoe\user\Module as UserModule;
+use infinindotech\rbac\components\DbManager;
+use infinindotech\rbac\components\ManagerInterface;
+use infinindotech\user\Module as UserModule;
 use yii\base\Application;
 use yii\web\Application as WebApplication;
 use yii\base\BootstrapInterface;

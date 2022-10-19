@@ -12,7 +12,7 @@
 /**
  * @var $dataProvider array
  * @var $this         yii\web\View
- * @var $filterModel  bajhoe\rbac\models\Search
+ * @var $filterModel  infinindotech\rbac\models\Search
  */
 
 use kartik\select2\Select2;
@@ -26,7 +26,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 ?>
 
-<?php $this->beginContent('@bajhoe/rbac/views/layout.php') ?>
+<?php $this->beginContent('@infinindotech/rbac/views/layout.php') ?>
 
 <?php Pjax::begin() ?>
 

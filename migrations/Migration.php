@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace bajhoe\rbac\migrations;
+namespace infinindotech\rbac\migrations;
 
-use bajhoe\rbac\components\DbManager;
+use infinindotech\rbac\components\DbManager;
 use yii\base\Component;
 use yii\db\MigrationInterface;
 use yii\di\Instance;

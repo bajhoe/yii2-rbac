@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace bajhoe\rbac\validators;
+namespace infinindotech\rbac\validators;
 
 use yii\validators\Validator;
 
@@ -18,7 +18,7 @@ use yii\validators\Validator;
  */
 class RbacValidator extends Validator
 {
-    /** @var \bajhoe\rbac\components\DbManager */
+    /** @var \infinindotech\rbac\components\DbManager */
     protected $manager;
     
     /** @inheritdoc */

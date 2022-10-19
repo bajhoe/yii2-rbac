@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace bajhoe\rbac\controllers;
+namespace infinindotech\rbac\controllers;
 
-use bajhoe\rbac\components\DbManager;
-use bajhoe\rbac\models\Rule;
-use bajhoe\rbac\models\RuleSearch;
+use infinindotech\rbac\components\DbManager;
+use infinindotech\rbac\models\Rule;
+use infinindotech\rbac\models\RuleSearch;
 use yii\di\Instance;
 use yii\filters\VerbFilter;
 use yii\web\Controller;

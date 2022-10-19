@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace bajhoe\rbac\components;
+namespace infinindotech\rbac\components;
 
 use yii\rbac\ManagerInterface as BaseManagerInterface;
 

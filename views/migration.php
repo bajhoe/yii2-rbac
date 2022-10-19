@@ -16,7 +16,7 @@
 echo "<?php\n";
 ?>
 
-use bajhoe\rbac\migrations\Migration;
+use infinindotech\rbac\migrations\Migration;
 
 class <?= $className ?> extends Migration
 {

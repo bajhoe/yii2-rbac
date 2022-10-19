@@ -11,7 +11,7 @@
 
 /**
  * @var $dataProvider array
- * @var $filterModel  bajhoe\rbac\models\Search
+ * @var $filterModel  infinindotech\rbac\models\Search
  * @var $this         yii\web\View
  */
 
@@ -27,7 +27,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 ?>
 
-<?php $this->beginContent('@bajhoe/rbac/views/layout.php') ?>
+<?php $this->beginContent('@infinindotech/rbac/views/layout.php') ?>
 
 <?php Pjax::begin() ?>
 

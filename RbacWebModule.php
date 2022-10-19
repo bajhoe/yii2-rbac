@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace bajhoe\rbac;
+namespace infinindotech\rbac;
 
 use yii\base\Module as BaseModule;
 use yii\filters\AccessControl;

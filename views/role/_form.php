@@ -11,7 +11,7 @@
 
 /**
  * @var $this  yii\web\View
- * @var $model bajhoe\rbac\models\Role
+ * @var $model infinindotech\rbac\models\Role
  */
 
 use kartik\select2\Select2;

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace bajhoe\rbac\controllers;
+namespace infinindotech\rbac\controllers;
 
 use yii\rbac\Permission;
 use yii\web\NotFoundHttpException;
@@ -21,7 +21,7 @@ use yii\rbac\Item;
 class PermissionController extends ItemControllerAbstract
 {
     /** @var string */
-    protected $modelClass = 'bajhoe\rbac\models\Permission';
+    protected $modelClass = 'infinindotech\rbac\models\Permission';
     
     /** @var int */
     protected $type = Item::TYPE_PERMISSION;

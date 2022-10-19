@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace bajhoe\rbac\models;
+namespace infinindotech\rbac\models;
 
-use bajhoe\rbac\components\DbManager;
-use bajhoe\rbac\validators\RbacValidator;
+use infinindotech\rbac\components\DbManager;
+use infinindotech\rbac\validators\RbacValidator;
 use Yii;
 use yii\base\InvalidConfigException;
 use yii\base\Model;
